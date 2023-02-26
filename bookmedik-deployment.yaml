@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: contenedor-bookmedik
-        image: legnakra/bookmedik:v1
+        image: legnakra/bookmedik:v1_1
         env:
           - name: USUARIO_BOOKMEDIK
             valueFrom:
